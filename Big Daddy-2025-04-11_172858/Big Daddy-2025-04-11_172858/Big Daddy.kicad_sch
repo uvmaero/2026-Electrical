@@ -1,7 +1,7 @@
 (kicad_sch
-	(version 20231120)
+	(version 20250114)
 	(generator "eeschema")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(uuid "e63e39d7-6ac0-4ffd-8aa3-1841a4541b55")
 	(paper "A")
 	(title_block
@@ -1162,6 +1162,10 @@
 	(sheet
 		(at 51.816 134.874)
 		(size 23.876 12.7)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
 		(fields_autoplaced yes)
 		(stroke
 			(width 0.1524)
@@ -1191,53 +1195,53 @@
 		)
 		(pin "TSAL_PWR" output
 			(at 75.692 135.89 0)
+			(uuid "97473391-3a38-4125-a5b6-0ded46404701")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "97473391-3a38-4125-a5b6-0ded46404701")
 		)
 		(pin "TSAL_GND" output
 			(at 75.692 138.684 0)
+			(uuid "a096d8f6-34e4-48f6-8a59-0ec50d3f70f3")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "a096d8f6-34e4-48f6-8a59-0ec50d3f70f3")
 		)
 		(pin "Vicor_OUT" input
 			(at 51.816 136.398 180)
+			(uuid "838a1f8c-c1e8-4cb2-9ef8-066b65a92094")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "838a1f8c-c1e8-4cb2-9ef8-066b65a92094")
 		)
 		(pin "Vicor_Fault" output
 			(at 75.692 143.51 0)
+			(uuid "765ee274-d02a-4d86-bfbc-a3d9c1f9f286")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "765ee274-d02a-4d86-bfbc-a3d9c1f9f286")
 		)
 		(pin "Vicor_Enable" input
 			(at 75.692 145.796 0)
+			(uuid "ef188661-e98c-4641-bc96-8a48b209d00e")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "ef188661-e98c-4641-bc96-8a48b209d00e")
 		)
 		(instances
 			(project "Big Daddy"
@@ -1250,6 +1254,10 @@
 	(sheet
 		(at 190.754 15.494)
 		(size 33.528 111.506)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
 		(fields_autoplaced yes)
 		(stroke
 			(width 0.1524)
@@ -1279,553 +1287,553 @@
 		)
 		(pin "RTD_LED" input
 			(at 190.754 76.454 180)
+			(uuid "9f98728a-9a7b-40a9-8e09-2ab4603ed100")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "9f98728a-9a7b-40a9-8e09-2ab4603ed100")
 		)
 		(pin "BMS_Fault_ind" input
 			(at 190.754 84.074 180)
+			(uuid "9aaf4039-d8a5-4ea6-baf9-02c37ec05b75")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "9aaf4039-d8a5-4ea6-baf9-02c37ec05b75")
 		)
 		(pin "Brake_Regen" input
 			(at 190.754 99.822 180)
+			(uuid "61e7a9e9-03df-47af-a8c1-2af41b2b1bcf")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "61e7a9e9-03df-47af-a8c1-2af41b2b1bcf")
 		)
 		(pin "VICOR_Tempt?" input
 			(at 190.754 104.648 180)
+			(uuid "7d541589-f584-4fa8-af3c-2416d0523c30")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "7d541589-f584-4fa8-af3c-2416d0523c30")
 		)
 		(pin "Pedal_0" input
 			(at 190.754 59.182 180)
+			(uuid "cbb82ddb-c1b1-40d4-bd36-fac98e8a0f71")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "cbb82ddb-c1b1-40d4-bd36-fac98e8a0f71")
 		)
 		(pin "IMD_Fault" input
 			(at 224.282 114.046 0)
+			(uuid "1df4ff9f-b541-4bd8-854f-0d27a214b004")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "1df4ff9f-b541-4bd8-854f-0d27a214b004")
 		)
 		(pin "RBrake" input
 			(at 190.754 64.77 180)
+			(uuid "65bf9776-76bf-4500-b74e-c13a5d9fb132")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "65bf9776-76bf-4500-b74e-c13a5d9fb132")
 		)
 		(pin "CAN_L" output
 			(at 190.754 124.968 180)
+			(uuid "4c59881b-9cb6-4450-87a9-7a2fc0478ee3")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "4c59881b-9cb6-4450-87a9-7a2fc0478ee3")
 		)
 		(pin "PUMP_TEMP_IN" input
 			(at 190.754 91.186 180)
+			(uuid "4df04520-e1cf-478c-8273-1664d2a58a5b")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "4df04520-e1cf-478c-8273-1664d2a58a5b")
 		)
 		(pin "DRIVE_MODE_LED" input
 			(at 190.754 79.502 180)
+			(uuid "9416da46-92f1-4cb9-8128-5f22c71b0cfa")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "9416da46-92f1-4cb9-8128-5f22c71b0cfa")
 		)
 		(pin "START_BTTN" input
 			(at 190.754 95.758 180)
+			(uuid "3a993b17-dfc1-4cc3-b26b-30e71c77d3be")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "3a993b17-dfc1-4cc3-b26b-30e71c77d3be")
 		)
 		(pin "FR_SUS" input
 			(at 190.754 27.686 180)
+			(uuid "79cb231e-0be9-4be1-831c-86e57dac5f93")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "79cb231e-0be9-4be1-831c-86e57dac5f93")
 		)
 		(pin "BR_STRAIN1" input
 			(at 190.754 55.118 180)
+			(uuid "ddb72e06-dd37-43cb-8aaf-40a3d11fa6f2")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "ddb72e06-dd37-43cb-8aaf-40a3d11fa6f2")
 		)
 		(pin "BR_TEMP" input
 			(at 190.754 52.07 180)
+			(uuid "3c047378-6c65-45bd-8432-8b073f2ef1e0")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "3c047378-6c65-45bd-8432-8b073f2ef1e0")
 		)
 		(pin "FR_STRAIN1" input
 			(at 190.754 33.782 180)
+			(uuid "c78edce3-3e57-469d-9c92-6fca86c4063b")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "c78edce3-3e57-469d-9c92-6fca86c4063b")
 		)
 		(pin "BR_SUS" input
 			(at 190.754 49.022 180)
+			(uuid "5207e9c9-7baa-4ea4-a4d0-5e15e0aa7f69")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "5207e9c9-7baa-4ea4-a4d0-5e15e0aa7f69")
 		)
 		(pin "FR_TEMP" input
 			(at 190.754 30.734 180)
+			(uuid "811be244-8be0-4922-a30d-359baf6f2c1b")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "811be244-8be0-4922-a30d-359baf6f2c1b")
 		)
 		(pin "BL_STRAIN0" input
 			(at 190.754 42.418 180)
+			(uuid "426d13a0-b79a-4988-a863-0b180f6ca1ac")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "426d13a0-b79a-4988-a863-0b180f6ca1ac")
 		)
 		(pin "GPS_TX" input
 			(at 190.754 121.158 180)
+			(uuid "4d64e8c3-bb98-45fa-919c-3d6aa3ecd6db")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "4d64e8c3-bb98-45fa-919c-3d6aa3ecd6db")
 		)
 		(pin "BL_SPEED" input
 			(at 190.754 39.37 180)
+			(uuid "ab469af2-b38c-4682-abd1-af3764b6e4cc")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "ab469af2-b38c-4682-abd1-af3764b6e4cc")
 		)
 		(pin "LoRa_TX" input
 			(at 190.754 109.474 180)
+			(uuid "a7c57d6a-65fd-4cf3-8fbd-19336aa06f5a")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "a7c57d6a-65fd-4cf3-8fbd-19336aa06f5a")
 		)
 		(pin "IMU_TX" input
 			(at 190.754 113.284 180)
+			(uuid "2fe0d20b-6a15-4cc6-ab75-f3679f66df58")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "2fe0d20b-6a15-4cc6-ab75-f3679f66df58")
 		)
 		(pin "RPi_TX" input
 			(at 190.754 117.094 180)
+			(uuid "b08dc96e-075f-4844-966c-0b1d02c1319a")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "b08dc96e-075f-4844-966c-0b1d02c1319a")
 		)
 		(pin "CAN_H" output
 			(at 190.754 123.444 180)
+			(uuid "ee737e09-c622-45af-bfe6-b2882f4c573f")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "ee737e09-c622-45af-bfe6-b2882f4c573f")
 		)
 		(pin "GPS_RX" input
 			(at 190.754 119.634 180)
+			(uuid "9c156986-941e-4403-bce1-3b3a830105f2")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "9c156986-941e-4403-bce1-3b3a830105f2")
 		)
 		(pin "RPi_RX" input
 			(at 190.754 115.57 180)
+			(uuid "e7d0060d-a7c3-4302-88d7-a6bd4b08c2f3")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "e7d0060d-a7c3-4302-88d7-a6bd4b08c2f3")
 		)
 		(pin "IMU_RX" input
 			(at 190.754 111.76 180)
+			(uuid "96ba7967-84cb-47d8-80c9-45ed72b9afdf")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "96ba7967-84cb-47d8-80c9-45ed72b9afdf")
 		)
 		(pin "LoRa_RX" input
 			(at 190.754 107.95 180)
+			(uuid "68967638-e31c-427b-887e-0066a60642b4")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "68967638-e31c-427b-887e-0066a60642b4")
 		)
 		(pin "Coast_Regen" input
 			(at 190.754 101.346 180)
+			(uuid "026ed613-bc24-4f3c-ab38-34297a1c9d96")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "026ed613-bc24-4f3c-ab38-34297a1c9d96")
 		)
 		(pin "DRIVE_MODE_BTTN" input
 			(at 190.754 94.234 180)
+			(uuid "885804d9-9653-4683-9759-4e823914d7c5")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "885804d9-9653-4683-9759-4e823914d7c5")
 		)
 		(pin "PUMP_TEMP_OUT" input
 			(at 190.754 89.662 180)
+			(uuid "c8245ab0-59da-412e-8d25-e5bcfaeddeeb")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "c8245ab0-59da-412e-8d25-e5bcfaeddeeb")
 		)
 		(pin "RTD_BUZZER_OUT" input
 			(at 190.754 86.868 180)
+			(uuid "30dd32d9-5dd3-4c02-b57a-5687fb47b413")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "30dd32d9-5dd3-4c02-b57a-5687fb47b413")
 		)
 		(pin "IMD_Fault_ind" input
 			(at 190.754 82.55 180)
+			(uuid "ff1ce0e1-ba43-432b-a6c3-d250be48904e")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "ff1ce0e1-ba43-432b-a6c3-d250be48904e")
 		)
 		(pin "FAN_LED" input
 			(at 190.754 77.978 180)
+			(uuid "2b60c6bf-e595-4baf-943c-600306e0133f")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "2b60c6bf-e595-4baf-943c-600306e0133f")
 		)
 		(pin "PUMP_LED" input
 			(at 190.754 74.93 180)
+			(uuid "a5ab19df-f3a5-43b0-89a6-aef762f287ce")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "a5ab19df-f3a5-43b0-89a6-aef762f287ce")
 		)
 		(pin "BMS_Fault" input
 			(at 224.282 112.522 0)
+			(uuid "45999cc4-43c4-44c1-b83c-054a0e9d159e")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "45999cc4-43c4-44c1-b83c-054a0e9d159e")
 		)
 		(pin "STEERING" input
 			(at 190.754 67.31 180)
+			(uuid "877ae5c7-4b83-413d-9762-173cc8980037")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "877ae5c7-4b83-413d-9762-173cc8980037")
 		)
 		(pin "FBrake" input
 			(at 190.754 63.246 180)
+			(uuid "379d3de4-ae50-4c10-947d-0c87ebbb34fb")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "379d3de4-ae50-4c10-947d-0c87ebbb34fb")
 		)
 		(pin "Pedal_1" input
 			(at 190.754 60.706 180)
+			(uuid "13e00724-0b65-42cf-b549-b089b3f962ac")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "13e00724-0b65-42cf-b549-b089b3f962ac")
 		)
 		(pin "BR_STRAIN0" input
 			(at 190.754 53.594 180)
+			(uuid "69b6ed1e-96ac-4ff5-a7e0-4c0a89586375")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "69b6ed1e-96ac-4ff5-a7e0-4c0a89586375")
 		)
 		(pin "BR_SPEED" input
 			(at 190.754 50.546 180)
+			(uuid "5c0f5ac7-997d-43ad-b6c8-61f65bc2e8eb")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "5c0f5ac7-997d-43ad-b6c8-61f65bc2e8eb")
 		)
 		(pin "BL_STRAIN1" input
 			(at 190.754 43.942 180)
+			(uuid "554066cf-2b1b-4d9a-9120-f120af17459e")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "554066cf-2b1b-4d9a-9120-f120af17459e")
 		)
 		(pin "BL_TEMP" input
 			(at 190.754 40.894 180)
+			(uuid "c526ac69-0afb-480e-aa05-95e51e7086d7")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "c526ac69-0afb-480e-aa05-95e51e7086d7")
 		)
 		(pin "BL_SUS" input
 			(at 190.754 37.846 180)
+			(uuid "b7306b65-dd45-471f-82d4-20204ec12229")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "b7306b65-dd45-471f-82d4-20204ec12229")
 		)
 		(pin "FR_STRAIN0" input
 			(at 190.754 32.258 180)
+			(uuid "3ea7482e-17d1-4416-9e26-24b20270179d")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "3ea7482e-17d1-4416-9e26-24b20270179d")
 		)
 		(pin "FR_SPEED" input
 			(at 190.754 29.21 180)
+			(uuid "5fa8325c-a559-4b16-b8da-d4a064b32cbd")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "5fa8325c-a559-4b16-b8da-d4a064b32cbd")
 		)
 		(pin "FL_STRAIN1" input
 			(at 190.754 23.622 180)
+			(uuid "fb9710d2-3cf5-4081-92b1-9923a07e83c5")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "fb9710d2-3cf5-4081-92b1-9923a07e83c5")
 		)
 		(pin "FL_STRAIN0" input
 			(at 190.754 22.098 180)
+			(uuid "811fc88a-9fb6-4d70-a1cd-2efbc5734f3b")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "811fc88a-9fb6-4d70-a1cd-2efbc5734f3b")
 		)
 		(pin "FL_SPEED" input
 			(at 190.754 19.05 180)
+			(uuid "63a9c355-7cfd-4a63-89ac-7eb91eeb2da9")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "63a9c355-7cfd-4a63-89ac-7eb91eeb2da9")
 		)
 		(pin "FL_TEMP" input
 			(at 190.754 20.574 180)
+			(uuid "86e9463c-d319-4405-82d7-2547c608d817")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "86e9463c-d319-4405-82d7-2547c608d817")
 		)
 		(pin "FL_SUS" input
 			(at 190.754 17.526 180)
+			(uuid "7495e62a-dee4-458b-9702-2448727656b8")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "7495e62a-dee4-458b-9702-2448727656b8")
 		)
 		(pin "BRAKE_OUT" input
 			(at 224.282 119.634 0)
+			(uuid "fc0e5884-a11b-41d7-b4ea-205e04c7ba56")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "fc0e5884-a11b-41d7-b4ea-205e04c7ba56")
 		)
 		(pin "FAN_OUT" input
 			(at 224.282 121.92 0)
+			(uuid "bedb7902-80bb-4630-9524-6f65931cc89b")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "bedb7902-80bb-4630-9524-6f65931cc89b")
 		)
 		(pin "Vicor_Fault" input
 			(at 224.282 105.156 0)
+			(uuid "49a0f28b-ddfb-4ff0-9fd0-2988011767e4")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "49a0f28b-ddfb-4ff0-9fd0-2988011767e4")
 		)
 		(pin "Vicor_Enable" output
 			(at 224.282 102.87 0)
+			(uuid "277a5b49-2c15-4d58-b7b9-0154751d90d8")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "277a5b49-2c15-4d58-b7b9-0154751d90d8")
 		)
 		(instances
 			(project "Big Daddy"
@@ -1838,6 +1846,10 @@
 	(sheet
 		(at 112.776 15.748)
 		(size 33.274 125.984)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
 		(fields_autoplaced yes)
 		(stroke
 			(width 0.1524)
@@ -1867,633 +1879,633 @@
 		)
 		(pin "BL_STRAIN0" input
 			(at 146.05 42.418 0)
+			(uuid "d18eb12b-36c8-4bb7-86df-7eda6256e563")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "d18eb12b-36c8-4bb7-86df-7eda6256e563")
 		)
 		(pin "BR_SUS" input
 			(at 146.05 49.022 0)
+			(uuid "f4a2c4a2-300d-431e-929b-f80e68d45521")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "f4a2c4a2-300d-431e-929b-f80e68d45521")
 		)
 		(pin "BR_STRAIN1" input
 			(at 146.05 55.118 0)
+			(uuid "32259a55-8879-40d0-a47a-a47e0e869e63")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "32259a55-8879-40d0-a47a-a47e0e869e63")
 		)
 		(pin "FR_TEMP" input
 			(at 146.05 30.734 0)
+			(uuid "f1e68b79-88c8-4aaa-8224-375b46d91574")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "f1e68b79-88c8-4aaa-8224-375b46d91574")
 		)
 		(pin "TSAL_PWR" output
 			(at 112.776 135.89 180)
+			(uuid "cd8f2652-d31b-4711-9f58-b4a9b482d902")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "cd8f2652-d31b-4711-9f58-b4a9b482d902")
 		)
 		(pin "IMD_Fault_ind" input
 			(at 146.05 82.55 0)
+			(uuid "f708cd50-da64-4485-8814-925db79e169a")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "f708cd50-da64-4485-8814-925db79e169a")
 		)
 		(pin "BMS_Fault_ind" input
 			(at 146.05 84.074 0)
+			(uuid "5fa16787-4040-48a6-8f17-5db2bd6dd769")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "5fa16787-4040-48a6-8f17-5db2bd6dd769")
 		)
 		(pin "PUMP_LED" input
 			(at 146.05 74.93 0)
+			(uuid "53306c9f-af65-4208-ae43-b0a413dc6aee")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "53306c9f-af65-4208-ae43-b0a413dc6aee")
 		)
 		(pin "CAN_L" output
 			(at 146.05 124.968 0)
+			(uuid "ef4dbdad-8c56-49e9-a369-db614afecb12")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "ef4dbdad-8c56-49e9-a369-db614afecb12")
 		)
 		(pin "CAN_H" output
 			(at 146.05 123.444 0)
+			(uuid "bcac8344-6c3c-483a-bfc7-6efc2a7899bd")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "bcac8344-6c3c-483a-bfc7-6efc2a7899bd")
 		)
 		(pin "GPS_TX" input
 			(at 146.05 121.158 0)
+			(uuid "1ddd4659-9737-4cd7-abe9-b99340dc3ccc")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "1ddd4659-9737-4cd7-abe9-b99340dc3ccc")
 		)
 		(pin "GPS_RX" input
 			(at 146.05 119.634 0)
+			(uuid "233a4b12-75f8-4e6b-bef8-914a0a26e0cb")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "233a4b12-75f8-4e6b-bef8-914a0a26e0cb")
 		)
 		(pin "RPi_TX" input
 			(at 146.05 117.094 0)
+			(uuid "03e44341-7135-43f6-b788-65cf0ea025fa")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "03e44341-7135-43f6-b788-65cf0ea025fa")
 		)
 		(pin "RPi_RX" input
 			(at 146.05 115.57 0)
+			(uuid "3fa67e89-ef15-4cf5-a49e-673d1f687149")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "3fa67e89-ef15-4cf5-a49e-673d1f687149")
 		)
 		(pin "IMU_TX" input
 			(at 146.05 113.284 0)
+			(uuid "d8dd8167-67ca-482c-9afd-9fc1f97d294c")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "d8dd8167-67ca-482c-9afd-9fc1f97d294c")
 		)
 		(pin "IMU_RX" input
 			(at 146.05 111.76 0)
+			(uuid "361ef32f-df03-4c0a-b1ec-da0055861d33")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "361ef32f-df03-4c0a-b1ec-da0055861d33")
 		)
 		(pin "LoRa_TX" input
 			(at 146.05 109.474 0)
+			(uuid "e735969f-8792-46e2-ba57-f570ed602196")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "e735969f-8792-46e2-ba57-f570ed602196")
 		)
 		(pin "LoRa_RX" input
 			(at 146.05 107.95 0)
+			(uuid "87e7ca3b-28df-491b-9e02-ae654a05fbb2")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "87e7ca3b-28df-491b-9e02-ae654a05fbb2")
 		)
 		(pin "Coast_Regen" input
 			(at 146.05 101.346 0)
+			(uuid "ecb78b0d-2821-48c3-943d-2fe9cd7fc11e")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "ecb78b0d-2821-48c3-943d-2fe9cd7fc11e")
 		)
 		(pin "Brake_Regen" input
 			(at 146.05 99.822 0)
+			(uuid "b3f06f9b-98c2-4dfa-a25f-1c787a26dad9")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "b3f06f9b-98c2-4dfa-a25f-1c787a26dad9")
 		)
 		(pin "START_BTTN" input
 			(at 146.05 95.758 0)
+			(uuid "732cf7f1-1497-49fb-9df9-283f13bc9404")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "732cf7f1-1497-49fb-9df9-283f13bc9404")
 		)
 		(pin "DRIVE_MODE_BTTN" input
 			(at 146.05 94.234 0)
+			(uuid "d17600f7-90d6-44ec-bc4d-55bd0f7bebf2")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "d17600f7-90d6-44ec-bc4d-55bd0f7bebf2")
 		)
 		(pin "PUMP_TEMP_IN" input
 			(at 146.05 91.186 0)
+			(uuid "e81511e7-940e-4357-b3ef-ae6a8ebfcfcb")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "e81511e7-940e-4357-b3ef-ae6a8ebfcfcb")
 		)
 		(pin "PUMP_TEMP_OUT" input
 			(at 146.05 89.662 0)
+			(uuid "940c0dda-aafa-414f-9507-673ce18f0723")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "940c0dda-aafa-414f-9507-673ce18f0723")
 		)
 		(pin "RTD_BUZZER_OUT" input
 			(at 146.05 86.868 0)
+			(uuid "cf7b942a-4e1d-4648-b6ff-f06a6227c510")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "cf7b942a-4e1d-4648-b6ff-f06a6227c510")
 		)
 		(pin "DRIVE_MODE_LED" input
 			(at 146.05 79.502 0)
+			(uuid "7c843301-0e60-4ea5-a2d1-1f31a9954884")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "7c843301-0e60-4ea5-a2d1-1f31a9954884")
 		)
 		(pin "FAN_LED" input
 			(at 146.05 77.978 0)
+			(uuid "e0256226-13c0-4882-87e6-9df29af48266")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "e0256226-13c0-4882-87e6-9df29af48266")
 		)
 		(pin "RTD_LED" input
 			(at 146.05 76.454 0)
+			(uuid "66daa9c4-81b5-4c79-93e9-0eaaffc1b8b3")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "66daa9c4-81b5-4c79-93e9-0eaaffc1b8b3")
 		)
 		(pin "STEERING" input
 			(at 146.05 67.31 0)
+			(uuid "27e8d483-680e-4c10-8f40-304476af5a56")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "27e8d483-680e-4c10-8f40-304476af5a56")
 		)
 		(pin "RBrake" input
 			(at 146.05 64.77 0)
+			(uuid "347b46b5-3a7d-4186-b73b-09de079f99ee")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "347b46b5-3a7d-4186-b73b-09de079f99ee")
 		)
 		(pin "FBrake" input
 			(at 146.05 63.246 0)
+			(uuid "66c9aa1d-93b6-4ef3-8bf4-2a962e45e1a6")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "66c9aa1d-93b6-4ef3-8bf4-2a962e45e1a6")
 		)
 		(pin "Pedal_1" input
 			(at 146.05 60.706 0)
+			(uuid "e067826d-96ca-4dfb-b6dc-89f3e8198fdf")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "e067826d-96ca-4dfb-b6dc-89f3e8198fdf")
 		)
 		(pin "Pedal_0" input
 			(at 146.05 59.182 0)
+			(uuid "d55b87cf-a34a-4765-a817-dbf328d108ba")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "d55b87cf-a34a-4765-a817-dbf328d108ba")
 		)
 		(pin "BR_SPEED" input
 			(at 146.05 50.546 0)
+			(uuid "a2b91d0e-7e6d-4e50-8beb-594b585f2581")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "a2b91d0e-7e6d-4e50-8beb-594b585f2581")
 		)
 		(pin "BR_TEMP" input
 			(at 146.05 52.07 0)
+			(uuid "320f8d20-033e-4a4a-a096-cda77dbd0b74")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "320f8d20-033e-4a4a-a096-cda77dbd0b74")
 		)
 		(pin "BR_STRAIN0" input
 			(at 146.05 53.594 0)
+			(uuid "d201c91f-b335-407e-998a-c7f08198c947")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "d201c91f-b335-407e-998a-c7f08198c947")
 		)
 		(pin "BL_STRAIN1" input
 			(at 146.05 43.942 0)
+			(uuid "a2c94c59-b689-4922-a8b9-6d1bdbb295c2")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "a2c94c59-b689-4922-a8b9-6d1bdbb295c2")
 		)
 		(pin "BL_TEMP" input
 			(at 146.05 40.894 0)
+			(uuid "d8fda175-85d1-4029-90c2-9e043d56118a")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "d8fda175-85d1-4029-90c2-9e043d56118a")
 		)
 		(pin "BL_SUS" input
 			(at 146.05 37.846 0)
+			(uuid "0a36e0c6-2f74-44a8-a37f-c0c889109c23")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "0a36e0c6-2f74-44a8-a37f-c0c889109c23")
 		)
 		(pin "BL_SPEED" input
 			(at 146.05 39.37 0)
+			(uuid "68252733-4d7b-4902-a455-2aff73bccd7e")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "68252733-4d7b-4902-a455-2aff73bccd7e")
 		)
 		(pin "FR_STRAIN1" input
 			(at 146.05 33.782 0)
+			(uuid "9306416d-d7d0-4c4f-afe7-ea20bb2d6779")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "9306416d-d7d0-4c4f-afe7-ea20bb2d6779")
 		)
 		(pin "FR_STRAIN0" input
 			(at 146.05 32.258 0)
+			(uuid "ee22e6cc-4619-4836-a176-be1396e37af6")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "ee22e6cc-4619-4836-a176-be1396e37af6")
 		)
 		(pin "FR_SPEED" input
 			(at 146.05 29.21 0)
+			(uuid "2e951658-88bc-47f6-974a-8fc599ad7f00")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "2e951658-88bc-47f6-974a-8fc599ad7f00")
 		)
 		(pin "FR_SUS" input
 			(at 146.05 27.686 0)
+			(uuid "3a7ff413-92e5-4f8e-848a-4b668678a05a")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "3a7ff413-92e5-4f8e-848a-4b668678a05a")
 		)
 		(pin "FL_TEMP" input
 			(at 146.05 20.574 0)
+			(uuid "f5d18860-7162-4a5d-b641-7bba02586b7b")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "f5d18860-7162-4a5d-b641-7bba02586b7b")
 		)
 		(pin "FL_STRAIN1" input
 			(at 146.05 23.622 0)
+			(uuid "4161ab09-dcb7-422c-a142-deff5370300d")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "4161ab09-dcb7-422c-a142-deff5370300d")
 		)
 		(pin "FL_STRAIN0" input
 			(at 146.05 22.098 0)
+			(uuid "f6463460-2f1c-454c-a7a7-cdcfcf903ec0")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "f6463460-2f1c-454c-a7a7-cdcfcf903ec0")
 		)
 		(pin "FL_SPEED" input
 			(at 146.05 19.05 0)
+			(uuid "11fbc594-dbcf-4cad-9f4d-477751ac2dee")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "11fbc594-dbcf-4cad-9f4d-477751ac2dee")
 		)
 		(pin "FL_SUS" input
 			(at 146.05 17.526 0)
+			(uuid "b67b5cfa-b61d-445c-a14f-266ef93b0a9f")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "b67b5cfa-b61d-445c-a14f-266ef93b0a9f")
 		)
 		(pin "FAN_PWR_OUT" output
 			(at 146.05 136.144 0)
+			(uuid "3a6e9853-f124-437d-9a60-314396850998")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "3a6e9853-f124-437d-9a60-314396850998")
 		)
 		(pin "BRAKE_PWR_OUT" output
 			(at 146.05 137.668 0)
+			(uuid "78ed1787-a554-49f5-aa6f-88b6275a420a")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "78ed1787-a554-49f5-aa6f-88b6275a420a")
 		)
 		(pin "TSAL_GND" output
 			(at 112.776 138.684 180)
+			(uuid "428d0947-d038-4a9a-8498-7e4f4b450c74")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "428d0947-d038-4a9a-8498-7e4f4b450c74")
 		)
 		(pin "BRB_RTN" input
 			(at 112.776 69.85 180)
+			(uuid "d5803680-01f4-46fe-960a-d850e7511966")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "d5803680-01f4-46fe-960a-d850e7511966")
 		)
 		(pin "TSV" output
 			(at 112.776 80.264 180)
+			(uuid "31661dc3-e9b8-4301-9d02-68a58fa6e8ef")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "31661dc3-e9b8-4301-9d02-68a58fa6e8ef")
 		)
 		(pin "BMS_12V" output
 			(at 112.776 87.884 180)
+			(uuid "86a3cf50-1798-4dda-b481-a349ed9fd9e4")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "86a3cf50-1798-4dda-b481-a349ed9fd9e4")
 		)
 		(pin "RINE_12V" output
 			(at 112.776 90.678 180)
+			(uuid "0c08174a-95cf-452a-aaac-35030e8cd0d8")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "0c08174a-95cf-452a-aaac-35030e8cd0d8")
 		)
 		(pin "BRB_LOOP" output
 			(at 112.776 104.394 180)
+			(uuid "f72f5b50-d6fa-4817-b4f5-c64167db32bd")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "f72f5b50-d6fa-4817-b4f5-c64167db32bd")
 		)
 		(pin "IMD_FAULT_SIG" input
 			(at 112.776 30.734 180)
+			(uuid "7ff5e668-e04d-4483-aa16-40dffbca0551")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "7ff5e668-e04d-4483-aa16-40dffbca0551")
 		)
 		(pin "BMS_FAULT_SIG" input
 			(at 112.776 28.956 180)
+			(uuid "ce5d8497-2b1a-42b5-bb8f-fd6f7dc86573")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "ce5d8497-2b1a-42b5-bb8f-fd6f7dc86573")
 		)
 		(pin "SSOK" input
 			(at 112.776 74.422 180)
+			(uuid "f7e73498-9a0a-4ec6-9aad-fa56e59217d0")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "f7e73498-9a0a-4ec6-9aad-fa56e59217d0")
 		)
 		(pin "PUMP_12V" output
 			(at 146.05 139.446 0)
+			(uuid "ef971f2a-0871-480d-9ccc-298770a606fd")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "ef971f2a-0871-480d-9ccc-298770a606fd")
 		)
 		(pin "Batt_12_IN" input
 			(at 112.776 58.674 180)
+			(uuid "d601b56e-5163-44b4-a442-416b2db5d7a1")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "d601b56e-5163-44b4-a442-416b2db5d7a1")
 		)
 		(pin "BMS_FAN_PWR_OUT" output
 			(at 112.776 97.536 180)
+			(uuid "15ea3856-40d2-4bbc-8147-a5c9a3e06770")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "15ea3856-40d2-4bbc-8147-a5c9a3e06770")
 		)
 		(instances
 			(project "Big Daddy"
@@ -2506,6 +2518,10 @@
 	(sheet
 		(at 56.134 63.5508)
 		(size 19.558 61.4172)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
 		(fields_autoplaced yes)
 		(stroke
 			(width 0.1524)
@@ -2535,123 +2551,123 @@
 		)
 		(pin "TSV" output
 			(at 75.692 80.264 0)
+			(uuid "a7b00559-e545-4d15-a845-2c9e23cea3ac")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "a7b00559-e545-4d15-a845-2c9e23cea3ac")
 		)
 		(pin "BRB_RTN" input
 			(at 75.692 69.85 0)
+			(uuid "c1b5a03b-3658-44f8-9d23-d2a3661eed3b")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "c1b5a03b-3658-44f8-9d23-d2a3661eed3b")
 		)
 		(pin "BRAKE_12V" output
 			(at 75.692 117.856 0)
+			(uuid "f4d2297b-636d-465d-85a3-b131adb7351f")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "f4d2297b-636d-465d-85a3-b131adb7351f")
 		)
 		(pin "PUMP_12V" output
 			(at 75.692 121.412 0)
+			(uuid "569afb01-0e71-407d-87f1-253723edfec4")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "569afb01-0e71-407d-87f1-253723edfec4")
 		)
 		(pin "FAN_12V" output
 			(at 75.692 119.634 0)
+			(uuid "4e0293a2-ffa1-4e6c-86f4-7f02c1971e40")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "4e0293a2-ffa1-4e6c-86f4-7f02c1971e40")
 		)
 		(pin "LOOP_OUT" input
 			(at 75.692 74.676 0)
+			(uuid "57573d9f-3da3-4998-a3d3-af9f723df6f4")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "57573d9f-3da3-4998-a3d3-af9f723df6f4")
 		)
 		(pin "BMS_12V" output
 			(at 75.692 87.884 0)
+			(uuid "b770919b-6a55-41a0-ba66-4bb7c271cfd1")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "b770919b-6a55-41a0-ba66-4bb7c271cfd1")
 		)
 		(pin "RINE_12V" output
 			(at 75.692 90.678 0)
+			(uuid "323966da-10d6-467c-8a5d-f2ed5bb2c7c1")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "323966da-10d6-467c-8a5d-f2ed5bb2c7c1")
 		)
 		(pin "BRB_LOOP" output
 			(at 75.692 104.394 0)
+			(uuid "dc399a7b-89e7-4d3f-9f65-a746c8c71b05")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "dc399a7b-89e7-4d3f-9f65-a746c8c71b05")
 		)
 		(pin "Batt_12_IN" input
 			(at 56.134 81.026 180)
+			(uuid "06749ce5-e8be-4829-a8b5-2b1c4c2236d4")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "06749ce5-e8be-4829-a8b5-2b1c4c2236d4")
 		)
 		(pin "Vicor_In" input
 			(at 56.134 83.312 180)
+			(uuid "b267638d-598a-4122-851a-54b92d2dfa16")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "b267638d-598a-4122-851a-54b92d2dfa16")
 		)
 		(pin "PAC_FAN" output
 			(at 75.692 97.536 0)
+			(uuid "25081cf9-d80c-4abe-93c4-a24e34748ee8")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "25081cf9-d80c-4abe-93c4-a24e34748ee8")
 		)
 		(instances
 			(project "Big Daddy"
@@ -2664,6 +2680,10 @@
 	(sheet
 		(at 30.226 18.034)
 		(size 44.704 32.258)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
 		(fields_autoplaced yes)
 		(stroke
 			(width 0.1524)
@@ -2693,63 +2713,63 @@
 		)
 		(pin "LOOP_IN" input
 			(at 74.93 20.828 0)
+			(uuid "fadbf3db-9f91-42d3-a4c4-b9527b9cae54")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "fadbf3db-9f91-42d3-a4c4-b9527b9cae54")
 		)
 		(pin "BMS_FAULT_SIG" input
 			(at 74.93 28.956 0)
+			(uuid "7d6d99e7-85e7-44b8-940d-14f464b3d193")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "7d6d99e7-85e7-44b8-940d-14f464b3d193")
 		)
 		(pin "LOOP_OUT" output
 			(at 74.93 22.606 0)
+			(uuid "3cd4344b-7080-4cd8-b0d0-3f035ab1d15a")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "3cd4344b-7080-4cd8-b0d0-3f035ab1d15a")
 		)
 		(pin "IMD_FAULT_SIG" input
 			(at 74.93 30.734 0)
+			(uuid "e92e26e2-f39a-4dfc-9ffe-bf3152fa532a")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "e92e26e2-f39a-4dfc-9ffe-bf3152fa532a")
 		)
 		(pin "BMS_IND" output
 			(at 30.226 35.814 180)
+			(uuid "03e78195-2db7-4104-8945-b0eaa944a79d")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "03e78195-2db7-4104-8945-b0eaa944a79d")
 		)
 		(pin "IMD_IND" output
 			(at 30.226 41.91 180)
+			(uuid "970fd95a-9151-4edf-9c2e-61ee33d0d452")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "970fd95a-9151-4edf-9c2e-61ee33d0d452")
 		)
 		(instances
 			(project "Big Daddy"
@@ -2762,6 +2782,10 @@
 	(sheet
 		(at 190.754 134.366)
 		(size 33.528 23.368)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
 		(fields_autoplaced yes)
 		(stroke
 			(width 0.1524)
@@ -2791,73 +2815,73 @@
 		)
 		(pin "Brake_SIG_Out" input
 			(at 224.282 139.954 0)
+			(uuid "74e251d7-b2aa-4a30-af51-bcfcd022e6c8")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "74e251d7-b2aa-4a30-af51-bcfcd022e6c8")
 		)
 		(pin "Fan_SIG_Out" input
 			(at 224.282 137.414 0)
+			(uuid "0a695538-44d8-42ee-81fe-e545c4b08339")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "0a695538-44d8-42ee-81fe-e545c4b08339")
 		)
 		(pin "Fan_PWR_Out" output
 			(at 190.754 136.144 180)
+			(uuid "5cf278c3-52d5-43f8-9b41-9e89edf60a07")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "5cf278c3-52d5-43f8-9b41-9e89edf60a07")
 		)
 		(pin "BRAKE_PWR_OUT" output
 			(at 190.754 137.668 180)
+			(uuid "2eb46d08-53ea-43fb-8bb3-ed6b34d6b477")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "2eb46d08-53ea-43fb-8bb3-ed6b34d6b477")
 		)
 		(pin "FAN_12V" input
 			(at 190.754 149.86 180)
+			(uuid "558bf5be-698d-4256-b874-d4ed486c19f3")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "558bf5be-698d-4256-b874-d4ed486c19f3")
 		)
 		(pin "BRAKE_12V" input
 			(at 190.754 148.082 180)
+			(uuid "0cae7103-8d76-4cf0-bed3-8110430c7dcf")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "0cae7103-8d76-4cf0-bed3-8110430c7dcf")
 		)
 		(pin "PUMP_12V" input
 			(at 190.754 151.638 180)
+			(uuid "cc0ee7db-5111-4407-be21-ce77b7182de9")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "cc0ee7db-5111-4407-be21-ce77b7182de9")
 		)
 		(instances
 			(project "Big Daddy"
@@ -2872,4 +2896,5 @@
 			(page "1")
 		)
 	)
+	(embedded_fonts no)
 )

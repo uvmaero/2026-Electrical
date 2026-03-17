@@ -1,7 +1,7 @@
 (kicad_sch
-	(version 20231120)
+	(version 20250114)
 	(generator "eeschema")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(uuid "145953a1-ecea-43c2-ab6b-01242341bee8")
 	(paper "A")
 	(title_block
@@ -13,7 +13,9 @@
 	)
 	(lib_symbols
 		(symbol "Device:Fuse"
-			(pin_numbers hide)
+			(pin_numbers
+				(hide yes)
+			)
 			(pin_names
 				(offset 0)
 			)
@@ -144,7 +146,18 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
+	)
+	(text "high voltage\n"
+		(exclude_from_sim no)
+		(at 95.504 34.798 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "1e2fb771-c375-4fa0-b816-2f670aaafb5f")
 	)
 	(junction
 		(at 154.178 92.202)
@@ -328,20 +341,9 @@
 		)
 		(uuid "feb788d7-3d43-4390-bd62-df987828a2f4")
 	)
-	(text "high voltage\n"
-		(exclude_from_sim no)
-		(at 95.504 34.798 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "1e2fb771-c375-4fa0-b816-2f670aaafb5f")
-	)
 	(hierarchical_label "Vicor_Enable"
 		(shape input)
 		(at 186.944 67.31 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -353,7 +355,6 @@
 	(hierarchical_label "Vicor_OUT"
 		(shape output)
 		(at 186.69 76.708 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -365,7 +366,6 @@
 	(hierarchical_label "TSAL_GND"
 		(shape output)
 		(at 186.69 131.572 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -377,7 +377,6 @@
 	(hierarchical_label "Vicor_Fault"
 		(shape output)
 		(at 186.944 69.85 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -389,7 +388,6 @@
 	(hierarchical_label "TSAL_PWR"
 		(shape output)
 		(at 186.436 125.222 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -553,6 +551,10 @@
 	(sheet
 		(at 81.534 72.39)
 		(size 32.766 27.686)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
 		(fields_autoplaced yes)
 		(stroke
 			(width 0.1524)
@@ -582,23 +584,23 @@
 		)
 		(pin "HV+" output
 			(at 114.3 79.756 0)
+			(uuid "1147a7e1-d380-4967-ad25-2833599f1e93")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "1147a7e1-d380-4967-ad25-2833599f1e93")
 		)
 		(pin "HV-" output
 			(at 114.3 92.202 0)
+			(uuid "1c46f925-1fe3-4b4d-b25d-0ccc95c77933")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "1c46f925-1fe3-4b4d-b25d-0ccc95c77933")
 		)
 		(instances
 			(project "Big Daddy"
@@ -611,6 +613,10 @@
 	(sheet
 		(at 189.23 99.568)
 		(size 40.386 36.068)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
 		(fields_autoplaced yes)
 		(stroke
 			(width 0.1524)
@@ -640,43 +646,43 @@
 		)
 		(pin "TSAL_GND" output
 			(at 189.23 131.572 180)
+			(uuid "d4e9e6d8-10be-426a-a021-c5b18004c5b4")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "d4e9e6d8-10be-426a-a021-c5b18004c5b4")
 		)
 		(pin "TSAL_PWR" output
 			(at 189.23 125.222 180)
+			(uuid "f63ac987-353f-4f06-9e34-2e522b1253b3")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "f63ac987-353f-4f06-9e34-2e522b1253b3")
 		)
 		(pin "HV-" input
 			(at 189.23 112.014 180)
+			(uuid "f103333b-dfa0-4623-88b8-cffc9cf40869")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "f103333b-dfa0-4623-88b8-cffc9cf40869")
 		)
 		(pin "HV+" input
 			(at 189.23 106.172 180)
+			(uuid "cc25c5cd-3e63-4ae9-94f8-ab1efbf13d0d")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "cc25c5cd-3e63-4ae9-94f8-ab1efbf13d0d")
 		)
 		(instances
 			(project "Big Daddy"
@@ -689,6 +695,10 @@
 	(sheet
 		(at 188.976 42.926)
 		(size 41.656 37.846)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
 		(fields_autoplaced yes)
 		(stroke
 			(width 0.1524)
@@ -718,53 +728,53 @@
 		)
 		(pin "HV+" input
 			(at 188.976 46.482 180)
+			(uuid "a7d3d91e-d4b2-432f-bec2-7abc46a5ee3b")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "a7d3d91e-d4b2-432f-bec2-7abc46a5ee3b")
 		)
 		(pin "HV-" input
 			(at 188.976 58.674 180)
+			(uuid "bf77e7b4-e542-4e33-9bfa-02e2d3729db1")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "bf77e7b4-e542-4e33-9bfa-02e2d3729db1")
 		)
 		(pin "FAULT" output
 			(at 188.976 69.85 180)
+			(uuid "875f1ef8-3241-49a4-b66c-a82919151f91")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "875f1ef8-3241-49a4-b66c-a82919151f91")
 		)
 		(pin "ENABLE" input
 			(at 188.976 67.31 180)
+			(uuid "bc1bc7a8-4f6d-489a-9b35-ed8d82e42e6c")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "bc1bc7a8-4f6d-489a-9b35-ed8d82e42e6c")
 		)
 		(pin "Vicor_OUT" input
 			(at 188.976 76.708 180)
+			(uuid "2c660fcf-96f8-4261-912e-d4f61bddb12b")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "2c660fcf-96f8-4261-912e-d4f61bddb12b")
 		)
 		(instances
 			(project "Big Daddy"

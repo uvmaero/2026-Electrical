@@ -1,7 +1,7 @@
 (kicad_sch
-	(version 20231120)
+	(version 20250114)
 	(generator "eeschema")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(uuid "159b2b43-b2c7-4a0a-bbfa-6e0a0b5bc451")
 	(paper "A")
 	(title_block
@@ -15,7 +15,9 @@
 	(lib_symbols
 		(symbol "Connector_Generic:Conn_01x01"
 			(pin_names
-				(offset 1.016) hide)
+				(offset 1.016)
+				(hide yes)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -82,17 +84,6 @@
 			)
 			(symbol "Conn_01x01_1_1"
 				(rectangle
-					(start -1.27 0.127)
-					(end 0 -0.127)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(rectangle
 					(start -1.27 1.27)
 					(end 1.27 -1.27)
 					(stroke
@@ -101,6 +92,17 @@
 					)
 					(fill
 						(type background)
+					)
+				)
+				(rectangle
+					(start -1.27 0.127)
+					(end 0 -0.127)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
 					)
 				)
 				(pin passive line
@@ -122,10 +124,13 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "Connector_Generic:Conn_01x02"
 			(pin_names
-				(offset 1.016) hide)
+				(offset 1.016)
+				(hide yes)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -192,14 +197,14 @@
 			)
 			(symbol "Conn_01x02_1_1"
 				(rectangle
-					(start -1.27 -2.413)
-					(end 0 -2.667)
+					(start -1.27 1.27)
+					(end 1.27 -3.81)
 					(stroke
-						(width 0.1524)
+						(width 0.254)
 						(type default)
 					)
 					(fill
-						(type none)
+						(type background)
 					)
 				)
 				(rectangle
@@ -214,14 +219,14 @@
 					)
 				)
 				(rectangle
-					(start -1.27 1.27)
-					(end 1.27 -3.81)
+					(start -1.27 -2.413)
+					(end 0 -2.667)
 					(stroke
-						(width 0.254)
+						(width 0.1524)
 						(type default)
 					)
 					(fill
-						(type background)
+						(type none)
 					)
 				)
 				(pin passive line
@@ -261,9 +266,12 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "Device:R"
-			(pin_numbers hide)
+			(pin_numbers
+				(hide yes)
+			)
 			(pin_names
 				(offset 0)
 			)
@@ -382,6 +390,7 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "power:GND"
 			(power)
@@ -461,7 +470,8 @@
 			(symbol "GND_1_1"
 				(pin power_in line
 					(at 0 0 270)
-					(length 0) hide
+					(length 0)
+					(hide yes)
 					(name "GND"
 						(effects
 							(font
@@ -478,7 +488,43 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
+	)
+	(text "TSMP!"
+		(exclude_from_sim no)
+		(at 93.472 73.914 0)
+		(effects
+			(font
+				(size 3.9878 3.9878)
+				(thickness 0.7976)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+		(uuid "5e471e00-c221-4f16-a1ce-d713e7e029d9")
+	)
+	(text "Power Resistors 10k Wirewound"
+		(exclude_from_sim no)
+		(at 116.586 73.406 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "6cf42c2e-90f6-4d19-a514-1611d7c49ed2")
+	)
+	(text "Gnd test point imd test"
+		(exclude_from_sim no)
+		(at 103.124 123.19 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "b761162b-da5b-44fd-9f1d-3766701331fd")
 	)
 	(junction
 		(at 110.998 99.06)
@@ -487,10 +533,22 @@
 		(uuid "3f2ad686-ca29-47c7-a2fc-3ef4612284a5")
 	)
 	(junction
+		(at 125.3845 83.82)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "7d798245-c175-489b-91bf-7e6f5e3303b9")
+	)
+	(junction
 		(at 110.998 84.328)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "81c939ce-ab6d-432f-8894-8649f17e7fbe")
+	)
+	(junction
+		(at 125.4114 99.06)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b0bd23fc-13f9-458d-8cd2-3c7463090201")
 	)
 	(polyline
 		(pts
@@ -514,7 +572,17 @@
 	)
 	(wire
 		(pts
-			(xy 110.998 86.868) (xy 110.998 84.328)
+			(xy 137.16 87.63) (xy 125.3845 87.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "13a8393d-1ba0-4322-8cf8-485446d743b8")
+	)
+	(wire
+		(pts
+			(xy 111.76 86.36) (xy 111.76 84.328)
 		)
 		(stroke
 			(width 0)
@@ -524,13 +592,23 @@
 	)
 	(wire
 		(pts
-			(xy 109.22 86.868) (xy 110.998 86.868)
+			(xy 110.49 86.36) (xy 111.76 86.36)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "1fb4e683-1a07-4cfb-a25c-72ed8f6588b0")
+	)
+	(wire
+		(pts
+			(xy 111.76 84.328) (xy 110.998 84.328)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "21a6b4d7-6719-416a-b6f2-3f6a18674a8d")
 	)
 	(polyline
 		(pts
@@ -545,6 +623,16 @@
 	)
 	(wire
 		(pts
+			(xy 125.3845 83.82) (xy 124.46 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "39e7ed9d-1aa3-46e8-81d8-b4ba06fdc784")
+	)
+	(wire
+		(pts
 			(xy 110.998 83.82) (xy 116.84 83.82)
 		)
 		(stroke
@@ -552,6 +640,16 @@
 			(type default)
 		)
 		(uuid "3cdafd7e-1f79-43d6-ba5f-8302837aae3f")
+	)
+	(wire
+		(pts
+			(xy 125.4114 99.06) (xy 124.46 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5770616f-1de5-41a0-8d72-1ece6f2becd7")
 	)
 	(polyline
 		(pts
@@ -608,6 +706,26 @@
 	)
 	(wire
 		(pts
+			(xy 127 99.06) (xy 125.4114 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a19c1666-60f1-4557-baf6-0627770d6d04")
+	)
+	(wire
+		(pts
+			(xy 125.73 83.82) (xy 125.3845 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a4a699b4-f910-476d-bc62-2b21ef885e9a")
+	)
+	(wire
+		(pts
 			(xy 110.998 99.06) (xy 110.998 101.6)
 		)
 		(stroke
@@ -636,6 +754,16 @@
 		)
 		(uuid "a9660ef8-5560-4023-81b0-d5ea1a4f21ac")
 	)
+	(wire
+		(pts
+			(xy 110.49 86.36) (xy 110.49 86.868)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "aac79d35-50b6-4eb9-b8bc-703e2fad8a76")
+	)
 	(polyline
 		(pts
 			(xy 103.632 123.444) (xy 124.714 123.444)
@@ -658,6 +786,26 @@
 	)
 	(wire
 		(pts
+			(xy 125.3845 87.63) (xy 125.3845 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c3027241-00d2-4af9-9c64-45f17e68ceec")
+	)
+	(wire
+		(pts
+			(xy 134.62 101.6) (xy 125.4114 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ee52977a-3237-4a95-b0e4-bb964dd11eaa")
+	)
+	(wire
+		(pts
 			(xy 109.22 101.6) (xy 110.998 101.6)
 		)
 		(stroke
@@ -665,6 +813,16 @@
 			(type default)
 		)
 		(uuid "f3a7d39d-15e8-44fc-8e1e-84e89eb8f405")
+	)
+	(wire
+		(pts
+			(xy 110.49 86.868) (xy 109.22 86.868)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f6d70480-bc86-467b-baa9-2bed22151369")
 	)
 	(wire
 		(pts
@@ -686,64 +844,37 @@
 		)
 		(uuid "f950d5fe-bb33-4448-ad9f-ceba2016e643")
 	)
-	(text "TSMP!"
-		(exclude_from_sim no)
-		(at 93.472 73.914 0)
-		(effects
-			(font
-				(size 3.9878 3.9878)
-				(thickness 0.7976)
-				(bold yes)
-			)
-			(justify left bottom)
+	(wire
+		(pts
+			(xy 125.4114 101.6) (xy 125.4114 99.06)
 		)
-		(uuid "5e471e00-c221-4f16-a1ce-d713e7e029d9")
-	)
-	(text "Power Resistors 10k Wirewound"
-		(exclude_from_sim no)
-		(at 116.586 73.406 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
+		(stroke
+			(width 0)
+			(type default)
 		)
-		(uuid "6cf42c2e-90f6-4d19-a514-1611d7c49ed2")
-	)
-	(text "Gnd test point imd test"
-		(exclude_from_sim no)
-		(at 103.124 123.19 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "b761162b-da5b-44fd-9f1d-3766701331fd")
-	)
-	(hierarchical_label "HV-"
-		(shape input)
-		(at 110.998 101.6 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "c62618d3-c332-45ed-97b1-628d1a1f9685")
+		(uuid "fa18a133-b5d4-41b2-8cec-7dbf2d15d943")
 	)
 	(hierarchical_label "HV+"
 		(shape input)
-		(at 110.998 86.868 0)
-		(fields_autoplaced yes)
+		(at 137.16 87.63 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify left)
 		)
-		(uuid "e300633f-a5a5-474a-a898-308565954930")
+		(uuid "2ac8aaca-7e43-4134-872f-494c521f1c20")
+	)
+	(hierarchical_label "HV-"
+		(shape input)
+		(at 134.62 101.6 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "447cc15e-1854-4cb6-a04d-11f53db4510a")
 	)
 	(symbol
 		(lib_id "Device:R")
@@ -907,7 +1038,7 @@
 	)
 	(symbol
 		(lib_id "Connector_Generic:Conn_01x01")
-		(at 129.54 83.82 0)
+		(at 130.81 83.82 0)
 		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
@@ -916,7 +1047,7 @@
 		(dnp no)
 		(uuid "373d8008-5a63-4633-9e4a-6e629463e3d1")
 		(property "Reference" "J6"
-			(at 129.54 81.28 0)
+			(at 130.81 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -924,7 +1055,7 @@
 			)
 		)
 		(property "Value" "HV+"
-			(at 133.35 83.82 0)
+			(at 134.62 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -932,7 +1063,7 @@
 			)
 		)
 		(property "Footprint" "Connector_Hirose:Hirose_DF63M-1P-3.96DSA_1x01_P3.96mm_Vertical"
-			(at 129.54 83.82 0)
+			(at 130.81 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -941,7 +1072,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 129.54 83.82 0)
+			(at 130.81 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -950,7 +1081,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 129.54 83.82 0)
+			(at 130.81 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -959,7 +1090,7 @@
 			)
 		)
 		(property "Digikey part number" ""
-			(at 129.54 83.82 0)
+			(at 130.81 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -981,7 +1112,7 @@
 	)
 	(symbol
 		(lib_id "Connector_Generic:Conn_01x01")
-		(at 129.54 99.06 0)
+		(at 132.08 99.06 0)
 		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
@@ -990,7 +1121,7 @@
 		(dnp no)
 		(uuid "617e510b-4a03-484f-9ce1-171b3885ffdf")
 		(property "Reference" "J7"
-			(at 129.54 96.52 0)
+			(at 132.08 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -998,7 +1129,7 @@
 			)
 		)
 		(property "Value" "HV-"
-			(at 133.35 99.06 0)
+			(at 135.89 99.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1006,7 +1137,7 @@
 			)
 		)
 		(property "Footprint" "Connector_Hirose:Hirose_DF63M-1P-3.96DSA_1x01_P3.96mm_Vertical"
-			(at 129.54 99.06 0)
+			(at 132.08 99.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1015,7 +1146,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 129.54 99.06 0)
+			(at 132.08 99.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1024,7 +1155,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 129.54 99.06 0)
+			(at 132.08 99.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1033,7 +1164,7 @@
 			)
 		)
 		(property "Digikey part number" ""
-			(at 129.54 99.06 0)
+			(at 132.08 99.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
