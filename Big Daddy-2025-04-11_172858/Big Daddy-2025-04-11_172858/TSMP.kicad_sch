@@ -954,7 +954,7 @@
 			(uuid "42697d96-dbbd-4a31-9e71-efca6a7b0c4f")
 		)
 		(instances
-			(project ""
+			(project "Big Daddy"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/86dc982f-3c1c-4a60-9b44-a3fbe3fd622a/54b537a8-62a1-4be1-9498-f1c4ca3d7436"
 					(reference "R32")
 					(unit 1)
@@ -1482,7 +1482,7 @@
 			(uuid "e31a693e-44ef-4649-9636-909570ec9a15")
 		)
 		(instances
-			(project ""
+			(project "Big Daddy"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/86dc982f-3c1c-4a60-9b44-a3fbe3fd622a/54b537a8-62a1-4be1-9498-f1c4ca3d7436"
 					(reference "R33")
 					(unit 1)
