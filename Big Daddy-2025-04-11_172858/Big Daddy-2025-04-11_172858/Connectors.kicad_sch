@@ -2536,7 +2536,7 @@
 		)
 		(uuid "2f738931-cf12-497e-bf34-77ee352e1373")
 	)
-	(hierarchical_label "TSAL_PWR"
+	(hierarchical_label "TSSI_PWR"
 		(shape output)
 		(at 46.228 134.366 0)
 		(effects
