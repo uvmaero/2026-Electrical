@@ -6592,7 +6592,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "c4c0f005-0070-4d35-b72e-675f526b0ee9")
 		(property "Reference" "U11"
@@ -7410,7 +7410,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "f5d66111-1668-4c40-80a6-f92948818f8d")
 		(property "Reference" "U12"

@@ -1834,6 +1834,16 @@
 		)
 		(uuid f7279080-5c7d-4d5b-a17d-9319d897ca17)
 	)
+	(text "Change HV On sig to either BMS or IMD fault from micro"
+		(exclude_from_sim no)
+		(at 129.032 125.222 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "200dcce0-56da-4899-a62c-1fd02ff3c487")
+	)
 	(text "*Optional just in case LED Drive does not work"
 		(exclude_from_sim no)
 		(at 189.484 128.016 0)
@@ -1890,6 +1900,16 @@
 			(justify left bottom)
 		)
 		(uuid "c187f5d8-19d3-4a2c-aaf1-92df08429dd1")
+	)
+	(text "Change TSAL to TSSI_RED_PWR,\n"
+		(exclude_from_sim no)
+		(at 248.666 84.836 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "e5f43ea5-c21c-44a4-b311-f4ed6774fbd6")
 	)
 	(junction
 		(at 134.366 112.776)
