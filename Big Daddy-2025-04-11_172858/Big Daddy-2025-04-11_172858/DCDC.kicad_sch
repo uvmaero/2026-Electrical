@@ -2056,6 +2056,10 @@
 		(color 0 0 0 0)
 		(uuid "f94f876a-4218-43ae-804b-81913b700fea")
 	)
+	(no_connect
+		(at 99.06 38.1)
+		(uuid "93652732-6a65-4fe5-9d2d-ce2119272c6a")
+	)
 	(polyline
 		(pts
 			(xy 158.496 107.95) (xy 158.496 60.96)
@@ -2219,7 +2223,7 @@
 	)
 	(wire
 		(pts
-			(xy 103.886 45.72) (xy 98.806 45.72)
+			(xy 104.14 45.72) (xy 99.06 45.72)
 		)
 		(stroke
 			(width 0)
@@ -2521,7 +2525,7 @@
 	)
 	(wire
 		(pts
-			(xy 79.121 41.91) (xy 87.376 41.91)
+			(xy 79.121 41.91) (xy 87.63 41.91)
 		)
 		(stroke
 			(width 0)
@@ -2838,7 +2842,7 @@
 	)
 	(hierarchical_label "HV-"
 		(shape input)
-		(at 103.886 45.72 0)
+		(at 104.14 45.72 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3004,7 +3008,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 91.186 41.91 90)
+		(at 91.44 41.91 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3013,7 +3017,7 @@
 		(fields_autoplaced yes)
 		(uuid "136e1c1a-2dd1-40c9-a2e3-b6e101ee716d")
 		(property "Reference" "R36"
-			(at 91.186 36.9275 90)
+			(at 91.44 36.9275 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3021,7 +3025,7 @@
 			)
 		)
 		(property "Value" "300"
-			(at 91.186 39.7026 90)
+			(at 91.44 39.7026 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3029,7 +3033,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
-			(at 91.186 43.688 90)
+			(at 91.44 43.688 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3038,7 +3042,7 @@
 			)
 		)
 		(property "Datasheet" "https://industrial.panasonic.com/ww/products/pt/general-purpose-chip-resistors/models/ERJ3GEYJ301V"
-			(at 91.186 41.91 0)
+			(at 91.44 41.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3047,7 +3051,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 91.186 41.91 0)
+			(at 91.44 41.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3056,7 +3060,7 @@
 			)
 		)
 		(property "Digikey part number" "P300GCT-ND"
-			(at 91.186 41.91 0)
+			(at 91.44 41.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3065,7 +3069,7 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" "ERJ-3GEYJ301V"
-			(at 91.186 41.91 0)
+			(at 91.44 41.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3916,7 +3920,7 @@
 	)
 	(symbol
 		(lib_id "Device:R_POT_TRIM_US")
-		(at 98.806 41.91 180)
+		(at 99.06 41.91 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3924,7 +3928,7 @@
 		(dnp no)
 		(uuid "cd867ab4-a227-4116-8eb5-0ea88713d05d")
 		(property "Reference" "RV1"
-			(at 100.5332 43.0784 0)
+			(at 100.7872 43.0784 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3933,7 +3937,7 @@
 			)
 		)
 		(property "Value" "50k TC33x-2-503E"
-			(at 100.5332 40.767 0)
+			(at 100.7872 40.767 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3942,7 +3946,7 @@
 			)
 		)
 		(property "Footprint" "Potentiometer_SMD:Potentiometer_Bourns_TC33X_Vertical"
-			(at 98.806 41.91 0)
+			(at 99.06 41.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3951,7 +3955,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.bourns.com/docs/Product-Datasheets/TC33.pdf"
-			(at 98.806 41.91 0)
+			(at 99.06 41.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3960,7 +3964,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 98.806 41.91 0)
+			(at 99.06 41.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3969,7 +3973,7 @@
 			)
 		)
 		(property "Digikey part number" "TC33X-503ECT-ND"
-			(at 98.806 41.91 0)
+			(at 99.06 41.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3978,7 +3982,7 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" "TC33X-2-503E"
-			(at 98.806 41.91 0)
+			(at 99.06 41.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)

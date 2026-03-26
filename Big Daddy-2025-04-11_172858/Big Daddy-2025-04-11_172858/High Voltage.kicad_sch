@@ -183,16 +183,6 @@
 	)
 	(wire
 		(pts
-			(xy 186.69 131.572) (xy 189.23 131.572)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "17416732-a8aa-4183-bf87-b0b702e34948")
-	)
-	(wire
-		(pts
 			(xy 186.944 69.85) (xy 188.976 69.85)
 		)
 		(stroke
@@ -223,6 +213,16 @@
 	)
 	(wire
 		(pts
+			(xy 242.57 115.57) (xy 229.616 115.57)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3aeda203-5e17-4698-8d40-f73ad3a969a1")
+	)
+	(wire
+		(pts
 			(xy 186.944 67.31) (xy 188.976 67.31)
 		)
 		(stroke
@@ -243,13 +243,23 @@
 	)
 	(wire
 		(pts
-			(xy 186.436 125.222) (xy 189.23 125.222)
+			(xy 242.57 111.76) (xy 229.616 111.76)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "56433c20-f462-4986-8e80-924dea63bcf0")
+		(uuid "4f4e2c7d-e46a-4a89-98f3-e25e56519cbf")
+	)
+	(wire
+		(pts
+			(xy 229.616 125.73) (xy 242.57 125.73)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5b13949e-d3f9-43a4-a0c2-12a166475bbc")
 	)
 	(wire
 		(pts
@@ -260,6 +270,16 @@
 			(type default)
 		)
 		(uuid "6530f216-4a39-47cf-b5bc-6280b3675e77")
+	)
+	(wire
+		(pts
+			(xy 229.616 130.81) (xy 241.3 130.81)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6864b32d-bfe0-4697-8ba7-c24df93a4b16")
 	)
 	(wire
 		(pts
@@ -303,6 +323,16 @@
 	)
 	(wire
 		(pts
+			(xy 243.84 120.65) (xy 229.616 120.65)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a6dceb3d-e4d2-405e-afd5-d3b5270b9430")
+	)
+	(wire
+		(pts
 			(xy 186.69 76.708) (xy 188.976 76.708)
 		)
 		(stroke
@@ -320,6 +350,16 @@
 			(type default)
 		)
 		(uuid "db521194-021a-43c7-b388-4d1d0578fe56")
+	)
+	(wire
+		(pts
+			(xy 229.616 107.95) (xy 236.22 107.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ef81a512-54d0-4d2a-b175-528d604ebebd")
 	)
 	(wire
 		(pts
@@ -352,6 +392,50 @@
 		)
 		(uuid "1090eb0c-d1a5-4564-9c11-45942b9de4cc")
 	)
+	(hierarchical_label "TSSI_Green_in"
+		(shape output)
+		(at 243.84 120.65 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "1302862c-b978-4754-a57b-9f2d44180555")
+	)
+	(hierarchical_label "TSSI_Red_out"
+		(shape output)
+		(at 241.3 130.81 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "1771bfc1-b643-456b-9312-40dc78315581")
+	)
+	(hierarchical_label "TSSI_Fault"
+		(shape input)
+		(at 242.57 111.76 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "308fb951-b5c2-4b37-8e3f-d276e22937d7")
+	)
+	(hierarchical_label "TSSI_Green_out"
+		(shape output)
+		(at 242.57 125.73 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "592ebb1d-7444-4ad0-af0d-393428919380")
+	)
 	(hierarchical_label "Vicor_OUT"
 		(shape output)
 		(at 186.69 76.708 180)
@@ -363,16 +447,27 @@
 		)
 		(uuid "7dc09bba-8b49-4344-9977-883edde70164")
 	)
-	(hierarchical_label "TSAL_GND"
-		(shape output)
-		(at 186.69 131.572 180)
+	(hierarchical_label "12V_in"
+		(shape input)
+		(at 236.22 107.95 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right)
+			(justify left)
 		)
-		(uuid "c6b30915-ef92-43ab-add5-1e5b5c832718")
+		(uuid "d1537857-f5cb-416e-9fbe-6c28ebbf9319")
+	)
+	(hierarchical_label "TSSI_Red_in"
+		(shape output)
+		(at 242.57 115.57 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "f7aeb176-d711-438d-977f-b27442ee667b")
 	)
 	(hierarchical_label "Vicor_Fault"
 		(shape output)
@@ -384,17 +479,6 @@
 			(justify right)
 		)
 		(uuid "fc84eb2c-52e5-4e5e-a204-a840ac97519c")
-	)
-	(hierarchical_label "TSAL_PWR"
-		(shape output)
-		(at 186.436 125.222 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "ffa8f8e2-bf2d-4c60-b823-512ab8ac2e3b")
 	)
 	(symbol
 		(lib_id "Device:Fuse")
@@ -644,26 +728,6 @@
 				(justify left top)
 			)
 		)
-		(pin "TSAL_GND" output
-			(at 189.23 131.572 180)
-			(uuid "d4e9e6d8-10be-426a-a021-c5b18004c5b4")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(pin "TSAL_PWR" output
-			(at 189.23 125.222 180)
-			(uuid "f63ac987-353f-4f06-9e34-2e522b1253b3")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
 		(pin "HV-" input
 			(at 189.23 112.014 180)
 			(uuid "f103333b-dfa0-4623-88b8-cffc9cf40869")
@@ -682,6 +746,66 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+			)
+		)
+		(pin "TSSI_Red_out" input
+			(at 229.616 130.81 0)
+			(uuid "a6ccf3f5-757f-45b8-9493-9357a4cc8010")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "TSSI_Green_out" input
+			(at 229.616 125.73 0)
+			(uuid "bdaa33f6-0dd9-4371-b354-6e97708145b3")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "TSSI_Green_in" input
+			(at 229.616 120.65 0)
+			(uuid "86fe2928-0978-4e96-ba7f-ebef2eadddb6")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "TSSI_Red_in" input
+			(at 229.616 115.57 0)
+			(uuid "f2092b69-08e8-4cd5-ac8d-4897bca2cefa")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "12V_in" input
+			(at 229.616 107.95 0)
+			(uuid "b9532ff8-4b4e-46f3-b4b5-da18c30a5876")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "TSSI_Fault" input
+			(at 229.616 111.76 0)
+			(uuid "9a040cd1-caa4-4114-bb2d-afaae90900d0")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
 			)
 		)
 		(instances
